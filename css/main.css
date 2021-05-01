@@ -29,12 +29,15 @@ body {
     padding: 1% 0 0 5%;
 }
 #headerright {
-    float: left;
-    width: 25%; 
+    float: right;
+   
     display: block;
     padding: 0 0 0 5%;
         
    }
+#headerright img {
+    width: 10%;
+}
 
 /* ===NAVIGATION=== */
     
