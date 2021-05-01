@@ -59,6 +59,8 @@ ul.topnav {
 }
 ul.topnav li {
     float: left;
+  
+}
 	
 }
 ul.topnav li a {
@@ -67,6 +69,9 @@ ul.topnav li a {
   text-align: center;
   padding: 18px 2.8%;
   text-decoration: none;
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
   transition: 0.3s;
   font-size: 18px;
 }
@@ -74,6 +79,9 @@ ul.topnav li a {
 ul.topnav li a:hover, nav li a.current {
     color: #de2226;
     background-color: #ffffff;
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
     }
 
 /* ===MAIN=== */
@@ -136,6 +144,9 @@ a {
     margin-right: -50px;  
     margin-top: -50px;
     float: right;
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
 }
 
 section {
