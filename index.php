@@ -13,8 +13,27 @@
     <body>
         <div class="wrapper"> 
         <header>
-           <?php include $_SERVER['DOCUMENT_ROOT'].'common/header.php'; ?>
-        
+           <!--<?php include $_SERVER['DOCUMENT_ROOT'].'common/header.php'; ?>-->
+		<div id="header">
+    			<div id="headerleft">
+       				<img src="/acme/images/site/logo.gif" alt="ACME logo">
+    			</div>
+    			<div id="headerright">
+        			<h3><img src="/acme/images/site/account.gif" alt="red folder icon">My Account</h3>
+    			</div>
+		</div>
+       
+		<nav>
+		    <ul class="topnav" id="myTopnav">
+			<li><a href="" class="current">Home</a></li>
+			<li><a href="">Cannon</a></li>
+			<li><a href="">Explosive</a></li>
+				    <li><a href="">Misc</a></li>
+				    <li><a href="">Rocket</a></li>
+				    <li><a href="">Trap</a></li>
+                    
+                    </ul>
+           	</nav>
         </header>
     
         <main>	
@@ -69,7 +88,11 @@
         </main>
 	
         <footer>
-            <?php include $_SERVER['DOCUMENT_ROOT'].'common/footer.php'; ?>
+            <!--<?php include $_SERVER['DOCUMENT_ROOT'].'common/footer.php'; ?>-->
+	    <p>&copy; ACME, All rights reserved.</p>
+		 <br>
+		 <p>All images used are believed to be in "Fair Use", Please notify the author if any are not and they will be removed.</p>
+		 <br>
             <p>Last Updated: <?php echo date('j F, Y', getlastmod()) ?></p>
         </footer>
         </div> <!-- .wrapper -->
