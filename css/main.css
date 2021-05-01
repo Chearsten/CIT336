@@ -4,7 +4,7 @@
 
 body {
    	background-color: #ffffff;
-	background-image: url("/acme/images/site/background.jpg");
+	background-image: url("images/site/background.jpg");
 	background-repeat: repeat-y;
 	background-position: center top;
 	background-size: 100%;
