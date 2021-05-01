@@ -126,7 +126,11 @@ li {
     font-family: sans-serif;
     font-size: 14px;
     line-height: 1.5em;
+    list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
+
 table1	{
     font-family: Sans-Serif;
     font-size: 14px;
