@@ -6,14 +6,14 @@
             <style>
             @import url('https://fonts.googleapis.com/css?family=Kalam');
             </style>
-            <link rel="stylesheet" href="/acme/css/main.css">
+            <link rel="stylesheet" href="acme/css/main.css">
             <meta name="viewport" content="width=device-width">        
     </head>
     
     <body>
         <div class="wrapper"> 
         <header>
-           <?php include $_SERVER['DOCUMENT_ROOT'].'/acme/common/header.php'; ?>
+           <?php include $_SERVER['DOCUMENT_ROOT'].'acme/common/header.php'; ?>
         
         </header>
     
@@ -21,14 +21,14 @@
             <h1>Welcome to Acme!</h1>
             
             <section id="banner">
-            <img src="/acme/images/site/rocketfeature.jpg" alt="coyote on rocket">
+            <img src="acme/images/site/rocketfeature.jpg" alt="coyote on rocket">
                 
             <ul>
                 <li><h2>Acme Rocket</h2></li>                                                       
                 <li>Quick lighting fuse</li>
                 <li>NHTSA approved seat belts</li>
                 <li>Mobile launch stand included</li>
-                <li><a href="#"><img id="bannerbtn" alt="I want it now" src="/acme/images/site/iwantit.gif"></a></li>
+                <li><a href="#"><img id="bannerbtn" alt="I want it now" src="acme/images/site/iwantit.gif"></a></li>
             </ul>
             </section>    
             
@@ -37,16 +37,16 @@
                 <table>
                     <tbody>
                         <tr>
-                            <td><img src="/acme/images/recipes/bbqsand.jpg" alt="BBQ sandwich picture"></td>
-                            <td><img src="/acme/images/recipes/potpie.jpg" alt="Pot Pie picture"></td>
+                            <td><img src="acme/images/recipes/bbqsand.jpg" alt="BBQ sandwich picture"></td>
+                            <td><img src="acme/images/recipes/potpie.jpg" alt="Pot Pie picture"></td>
                         </tr>
                         <tr>
                             <td><a href="#" >Pulled Roadrunner BBQ</a></td>
                             <td><a href="#" >Roadrunner Pot Pie</a></td>
                         </tr>
                         <tr>
-                            <td><img src="/acme/images/recipes/soup.jpg" alt="Soup picture"></td>
-                            <td><img src="/acme/images/recipes/taco.jpg" alt="Taco picture"></td>
+                            <td><img src="acme/images/recipes/soup.jpg" alt="Soup picture"></td>
+                            <td><img src="acme/images/recipes/taco.jpg" alt="Taco picture"></td>
                         </tr>
                         <tr>
                             <td><a href="#" >Roadrunner Soup</a></td>
@@ -69,7 +69,7 @@
         </main>
 	
         <footer>
-            <?php include $_SERVER['DOCUMENT_ROOT'].'/acme/common/footer.php'; ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'].'acme/common/footer.php'; ?>
             <p>Last Updated: <?php echo date('j F, Y', getlastmod()) ?></p>
         </footer>
         </div> <!-- .wrapper -->
