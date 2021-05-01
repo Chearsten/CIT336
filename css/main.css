@@ -1,10 +1,9 @@
-
 /* CSS Document */
 /* This is how you make a comment in css*/
 
 body {
    	background-color: #ffffff;
-	background-image: url("images/site/background.jpg");
+	background-image: url("/acme/images/site/background.jpg");
 	background-repeat: repeat-y;
 	background-position: center top;
 	background-size: 100%;
@@ -30,15 +29,11 @@ body {
 }
 #headerright {
     float: right;
-    
+    width: 45%; 
     display: block;
     padding: 0 0 0 5%;
         
    }
-#headerright img {
-    width: 30%;
-    float: right;
-}
 
 /* ===NAVIGATION=== */
     
@@ -63,8 +58,6 @@ ul.topnav {
 }
 ul.topnav li {
     float: left;
-  
-}
 	
 }
 ul.topnav li a {
@@ -125,7 +118,6 @@ li {
     font-size: 14px;
     line-height: 1.5em;
 }
-
 table1	{
     font-family: Sans-Serif;
     font-size: 14px;
