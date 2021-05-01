@@ -29,14 +29,16 @@ body {
 }
 #headerright {
     float: right;
-    width: 45%; 
-    display: block;
     padding: 0 0 0 5%;
         
    }
 
 #headerright img {
 	width: 30%;
+}
+
+#headerright h3 {
+	display: grid;
 }
 
 /* ===NAVIGATION=== */
