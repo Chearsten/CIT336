@@ -35,6 +35,10 @@ body {
         
    }
 
+#headerright img {
+	width: 30%;
+}
+
 /* ===NAVIGATION=== */
     
 header nav {
